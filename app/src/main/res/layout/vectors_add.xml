@@ -33,7 +33,7 @@
            android:layout_height="35dp"/>
         <TextView
             android:text="Address"
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:layout_margin="5dp"
             android:textStyle="bold"
             android:textColor="@color/material_on_background_emphasis_medium"
