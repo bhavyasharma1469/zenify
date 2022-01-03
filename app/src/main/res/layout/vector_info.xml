@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
-        <TextView
+        <EditText
             android:text="+91 987654321"
             android:textColor="@color/black"
             android:textStyle="bold"

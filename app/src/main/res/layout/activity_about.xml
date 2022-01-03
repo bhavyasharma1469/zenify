@@ -29,28 +29,35 @@
                 android:src="@drawable/ic_twotone_person_24" />
 
             <TextView
+                android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="20dp"
+                android:layout_weight="1"
                 android:text="About"
                 android:textColor="@color/material_on_background_emphasis_medium"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
+
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginBottom="15dp"
-            android:text="Hey everyone,I am Ian Somerhalder.\nI beleive meditation is a spiritual journey that connects us with ourselves."
-            android:textColor="@color/black"
-            android:textSize="22dp"
-            android:textStyle="bold" />
+
 
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="15dp"
+        android:text='Hey everyone,I am Ian Somerhalder.\nI beleive meditation is a spiritual journey that connects us with ourselves."'
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
 
 </androidx.cardview.widget.CardView>

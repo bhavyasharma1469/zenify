@@ -23,12 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_alignParentStart="true"
-                    android:padding="1dp"
-                    android:src="@drawable/ic_backarrow" />
+
 
                 <ImageView
                     android:layout_width="80dp"
